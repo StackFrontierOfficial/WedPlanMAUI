@@ -1,4 +1,6 @@
-﻿namespace WedPlanMAUI
+﻿using WedPlanMAUI.Screens.home;
+
+namespace WedPlanMAUI
 {
 	public partial class App : Application
 	{
@@ -6,7 +8,7 @@
 		{
 			InitializeComponent();
 
-			MainPage = new AppShell();
+			MainPage = new HomeScreen();
 		}
 	}
 }
